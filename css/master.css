@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  height: 100px;
+}
+
+#landing-page {
+  height: 100vh;
+}
+
+#first-section {
+  background: #ff0;
+}
