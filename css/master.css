@@ -9,7 +9,7 @@ body {
 
 #landing-page {
   height: 100vh;
-  background-image: image("images/bg-image.jpeg");
+  background-image: url("images/bg-image.jpeg");
 }
 
 #first-section {
