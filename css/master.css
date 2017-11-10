@@ -16,6 +16,10 @@ body {
   background-size: cover;
 }
 
+nav.navbar {
+   background: rgba(0,0,0,0.4);
+}
+
 #first-section {
   background: #ff0;
 }
