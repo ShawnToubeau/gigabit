@@ -27,6 +27,12 @@ nav.navbar {
   justify-content: center;
 }
 
+#brand, .navBtn {
+  background: transparent;
+  color: white;
+  border: none;
+}
+
 .navBtn {
   float: right;
   margin-left: 5px;
