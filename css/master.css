@@ -34,18 +34,18 @@ nav.navbar {
   border: none;
 }
 
+#brand {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
 .navBtn {
   float: right;
   margin-left: 5px;
   margin-right: 5px;
 }
-
-button#brand {
-  float: left;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
 
 #first-section {
   background: #ff0;
