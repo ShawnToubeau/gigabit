@@ -19,7 +19,26 @@ body {
 nav.navbar {
   background: rgba(0,0,0,0.4);
   border: none;
+  /*   position: relative; */
+  display: inline-flex;
+  /* align-items items in column */
+  flex-direction: column;
+  /* center items vertically */
+  justify-content: center;
 }
+
+.navBtn {
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+button#brand {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 
 #first-section {
   background: #ff0;
