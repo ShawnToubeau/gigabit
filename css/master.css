@@ -41,6 +41,10 @@ nav.navbar {
   font-size: 20px;
 }
 
+#navLogo {
+  width: 100px;
+}
+
 .navBtn {
   float: right;
   margin-left: 5px;
