@@ -11,10 +11,13 @@ body {
 #landing-page {
   height: 100vh;
   background: linear-gradient(
-                     rgba(20,20,20, .5), 
-                     rgba(20,20,20, .5)),
+                     rgba(0,0,0, .5), 
+                     rgba(200,200,200, .5)),
                      url("https://images.pexels.com/photos/518389/pexels-photo-518389.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #navBar {
@@ -45,6 +48,14 @@ body {
   background: transparent;
   color: white;
   border: none;
+}
+
+#logo {
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #first-section {
