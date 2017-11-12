@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 
 .section {
@@ -11,7 +12,7 @@ body {
 #landing-page {
   height: 100vh;
   background: linear-gradient(
-                     rgba(0,0,0, .5), 
+                     rgba(0,0,0, .5),
                      rgba(200,200,200, .5)),
                      url("https://images.pexels.com/photos/518389/pexels-photo-518389.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
   background-size: cover;
@@ -23,6 +24,11 @@ body {
 #navBar {
   height: 70px;
   position: relative;
+}
+
+#second-navbar {
+  height: 70px;
+  position: fixed;
 }
 
 .nav-container {
@@ -50,6 +56,10 @@ body {
   border: none;
 }
 
+.navBtn:hover {
+  color: rgba(200, 200, 200, 0.5);
+}
+
 #logo {
   width: 40%;
   position: absolute;
@@ -58,6 +68,30 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#tagline {
+  color: white;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 #first-section {
+  padding-left: 5%;
+  padding-right: 5%;
+  height: auto;
+}
+
+#first-section-header {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+}
+
+#second-section {
   background: #ff0;
+  height: 100vh;
 }
