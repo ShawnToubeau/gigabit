@@ -29,6 +29,8 @@ body {
 #second-navbar {
   height: 70px;
   position: fixed;
+  display: none;
+  background: white;
 }
 
 .nav-container {
