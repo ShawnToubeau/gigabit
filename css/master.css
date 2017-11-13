@@ -106,3 +106,9 @@ body {
   background: #ff0;
   height: 100vh;
 }
+
+@media only screen and (max-width: 678px) {
+    .navBtn, .second-navBtn {
+        display: none;
+    }
+}
