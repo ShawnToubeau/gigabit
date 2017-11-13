@@ -16,7 +16,7 @@ function closeNav() {
 }
 
 $(window).resize(function(){
-	if ($(window).width() >= 768){	
+	if ($(window).width() >= 678){	
 		closeNav()
 	}	
 });
