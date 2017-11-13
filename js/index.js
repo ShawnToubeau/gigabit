@@ -14,3 +14,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("sidenav").style.width = "0";
 }
+
+$(window).resize(function(){
+	if ($(window).width() >= 768){	
+		closeNav()
+	}	
+});
