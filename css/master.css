@@ -67,6 +67,10 @@ body {
   color: rgba(200, 200, 200, 0.5);
 }
 
+.second-navBtn:hover {
+  color rgba(0, 0, 0, 0.5);
+}
+
 #logo {
   width: 40%;
   position: absolute;
