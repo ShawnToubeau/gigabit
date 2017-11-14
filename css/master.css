@@ -50,7 +50,7 @@ body {
   top: 50%;
   right: 5%;
   transform: translate(-50%, -50%);
-  display: flex;
+/*   display: flex; */
   justify-content: center;
   align-items: center;
   background-color: rgb(128, 128, 128);
